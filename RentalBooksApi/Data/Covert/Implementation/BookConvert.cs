@@ -18,7 +18,8 @@ namespace RentalBooksApi.Data.Covert.Implementation
                 Author = origin.Author,
                 LaunchDate = origin.LaunchDate,
                 Price = origin.Price,
-                Title = origin.Title
+                Title = origin.Title,
+                CategoryId = origin.CategoryId
             };
         }
 
@@ -31,7 +32,8 @@ namespace RentalBooksApi.Data.Covert.Implementation
                 Author = origin.Author,
                 LaunchDate = origin.LaunchDate,
                 Price = origin.Price,
-                Title = origin.Title
+                Title = origin.Title,
+                CategoryId = origin.CategoryId
             };
         }
 

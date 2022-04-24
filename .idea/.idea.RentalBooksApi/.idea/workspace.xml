@@ -9,7 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7002c19a-31d6-490e-bd4d-3a3973197f85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RentalBooksApi/Business/Imoplementations/BookBusinessImplementation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/Business/Implementations/BookBusinessImplementation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Business/ICategoryBusiness.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Business/Implementations/CategoryBusinessImplementation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Data/Covert/Implementation/CategoryConvert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Data/Vo/CategoryVo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/Data/Covert/Implementation/BookConvert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/Data/Covert/Implementation/BookConvert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/Data/Vo/BookVo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/Data/Vo/BookVo.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650806823690</updated>
       <workItem from="1650806842346" duration="3505000" />
-      <workItem from="1650818701648" duration="1208000" />
+      <workItem from="1650818701648" duration="3642000" />
     </task>
     <servers />
   </component>

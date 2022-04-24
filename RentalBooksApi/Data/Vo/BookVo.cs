@@ -14,5 +14,8 @@ namespace RentalBooksApi.Data.Vo
         public decimal Price { get; set; }
 
         public DateTime LaunchDate { get; set; }
+        
+        public int CategoryId { get; set; }
+        
     }
 }
