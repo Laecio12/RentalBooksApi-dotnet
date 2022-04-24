@@ -4,7 +4,7 @@ using RentalBooksApi.Data.Vo;
 using RentalBooksApi.Models;
 using RentalBooksApi.Repository.Generic;
 
-namespace RentalBooksApi.Business.Imoplementations
+namespace RentalBooksApi.Business.Implementations
 {
     public class BookBusinessImplementation : IBookBusiness
     {
