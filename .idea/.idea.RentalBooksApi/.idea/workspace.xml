@@ -4,11 +4,13 @@
     <projectFile profileName="IIS Express">RentalBooksApi/RentalBooksApi.csproj</projectFile>
     <projectFile profileName="RentalBooksApi">RentalBooksApi/RentalBooksApi.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7002c19a-31d6-490e-bd4d-3a3973197f85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Models/Base/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Models/Book.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/Models/Category.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650806823690</updated>
-      <workItem from="1650806842346" duration="1025000" />
+      <workItem from="1650806842346" duration="2068000" />
     </task>
     <servers />
   </component>
