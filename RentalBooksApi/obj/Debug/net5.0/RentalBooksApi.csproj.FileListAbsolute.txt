@@ -36,3 +36,4 @@
 /home/laecio/Desktop/dotnet/net5/RentalBooksApi/RentalBooksApi/obj/Debug/net5.0/ref/RentalBooksApi.dll
 /home/laecio/Desktop/dotnet/net5/RentalBooksApi/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.pdb
 /home/laecio/Desktop/dotnet/net5/RentalBooksApi/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.genruntimeconfig.cache
+/home/laecio/Desktop/dotnet/net5/RentalBooksApi/RentalBooksApi/bin/Debug/net5.0/appsettings.examle.json
