@@ -8,7 +8,5 @@ namespace RentalBooksApi.Data.Vo
         public long Id { get; set; }
         
         public string CategoryName { get; set; }
-
-        private ICollection<Book> Books { get; set; }
     }
 }

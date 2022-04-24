@@ -11,10 +11,10 @@ namespace RentalBooksApi.Business.Implementations
         private readonly IRepository<Category> _repository;
         private readonly CategoryConvert _convert;
 
-        public CategoryBusinessImplementation(IRepository<Category> repository, CategoryConvert convert)
+        public CategoryBusinessImplementation(IRepository<Category> repository)
         {
             _repository = repository;
-            _convert = convert;
+            _convert = new CategoryConvert();
         }
 
         public CategoryVo Create(CategoryVo category)
