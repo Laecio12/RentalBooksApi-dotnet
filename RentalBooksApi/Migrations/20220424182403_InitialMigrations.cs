@@ -49,7 +49,7 @@ namespace RentalBooksApi.Migrations
                         column: x => x.CategoryId1,
                         principalTable: "categories",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
