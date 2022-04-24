@@ -9,7 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7002c19a-31d6-490e-bd4d-3a3973197f85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RentalBooksApi/Models/Context/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentalBooksApi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RentalBooksApi/RentalBooksApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/RentalBooksApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/Debug/net5.0/RentalBooksApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/RentalBooksApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/RentalBooksApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalBooksApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RentalBooksApi/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650806823690</updated>
-      <workItem from="1650806842346" duration="2556000" />
+      <workItem from="1650806842346" duration="3304000" />
     </task>
     <servers />
   </component>
