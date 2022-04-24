@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RentalBooksApi.Business;
+using RentalBooksApi.Business.Implementations;
+using RentalBooksApi.Repository.Generic;
 
 namespace RentalBooksApi
 {
@@ -27,6 +23,11 @@ namespace RentalBooksApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+            // Dependency injection
+            services.AddScoped<IBookBusiness, BookBusinessImplementation>();
+            services.AddScoped<ICategoryBusiness, CategoryBusinessImplementation>();
+            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RentalBooksApi", Version = "v1"});
