@@ -19,14 +19,9 @@ namespace RentalBooksApi.Models
         public string Title { get; set; }
         
         [Column("price", TypeName = "decimal(10,2)")]
-        [Required]
-        [StringLength(100)]
         public decimal Price { get; set; }
         
         [Column("launch_date")]
-        
-        [Required]
-        [StringLength(100)]
         public DateTime LaunchDate { get; set; }
     }
 }
